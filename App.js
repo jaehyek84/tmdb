@@ -1,26 +1,3 @@
-/*
-You're in charge of managing the development of the new TMDB mobile application. The deadline
-is almost here, and your developer quits! You can tell the board that you can't deliver the
-project, or you can finish it yourself. Luckily, you took an awesome introduction to software
-development course in b-school. You've got this.
-To-do:
-- When a movie title is entered into the text field, figure out how to capture the value that's
-  typed in the state object.
-- When the return key is pressed, use the value that's typed by the user to call the TMDB API
-  (already done), and store the first result in state. Pass this object (via props) to the Movie
-  component (already written, but hard-coded), and display the movie's poster, backdrop, title,
-  rating (average vote) and overview. In addition, clear out the existing search term so that
-  it reads "Enter a movie name!" instead of the movie you just searched for.
-Hints:
-- Read the React documentation on the TextInput component –
-  https://facebook.github.io/react-native/releases/0.28/docs/textinput.html – pay particular
-  attention to the onChangeText (event that occurs when typing into the TextInput) and also
-  onSubmitEditing (event that occurs when the user presses the return key) - write event handler
-  functions for both!
-- Styles are already written and applied, so there's no need to modify them, unless
-  you want to!
-*/
-
 import React from 'react';
 import { Image, TextInput, Text, View, StyleSheet } from 'react-native';
 
